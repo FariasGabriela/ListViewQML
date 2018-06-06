@@ -23,4 +23,16 @@ ApplicationWindow {
             text: valorText
         }
     }
+
+    //text
+    Text{
+        id: exitButton
+        text:'Olá'
+
+        anchors{
+            verticalCenter: parent.verticalCenter
+            horizontalCenter: parent.horizontalCenter
+        }
+
+    }
 }
